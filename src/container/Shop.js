@@ -61,7 +61,7 @@ export default class AppHome extends Component {
                     {[1,2,3].map(val => (
                         <div
                             key={val}
-                            style={{ display: 'inline-block', width: '100%', height: 130, backgroundColor:"orange"}}
+                            style={{ display: 'inline-block', width: '100%', height: 130}}
                         >
                             <img
                                 src={require(`../image/lunbo${val}.jpg`)}
